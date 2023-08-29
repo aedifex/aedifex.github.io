@@ -1,12 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: Hello, world.
----
-
----
-layout: page
-title: About me
 subtitle: I'm trying to change the world. Seriously.
 ---
 
