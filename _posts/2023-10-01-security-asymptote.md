@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test
+title: The security asymptote
 subtitle: Getting closer to zero risk
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
