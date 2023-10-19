@@ -2,7 +2,7 @@
 layout: post
 title: The security asymptote
 subtitle: Getting closer to zero risk
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/hacker.png
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [books, test]
