@@ -3,7 +3,7 @@ layout: post
 title: iTerm 2 basics
 subtitle: Commands && Shortcuts for wellness and zen
 author:     "Christopher Black"
-cover-img: /assets/img/nothing-held-back.jpg
+cover-img: /assets/img/iterm.png
 tags: [insperation, test]
 ---
 
