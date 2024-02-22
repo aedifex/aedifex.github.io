@@ -8,4 +8,4 @@ tags: [programming, problem-solving, career]
 
 Rough draft!
 
-![]({{ '/assets/images/json_resume.png' | relative_url }}){: .mx-auto.d-block :}
+![]({{ '/assets/img/json_resume.png' | relative_url }}){: .mx-auto.d-block :}
