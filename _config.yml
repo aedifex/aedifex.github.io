@@ -25,7 +25,7 @@ navbar-links:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
-  Resume: "https://google.com"
+  Resume: "https://christopherblack-resume.s3.us-west-2.amazonaws.com/index.html"
   Research: "research"
   Latin: "latin"
 
