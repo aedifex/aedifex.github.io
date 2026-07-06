@@ -28,6 +28,7 @@ navbar-links:
   Resume: "https://christopherblack-resume.s3.us-west-2.amazonaws.com/index.html"
   Research: "research"
   Latin: "latin"
+  Tags: "tags"
 
 ################
 # --- Logo --- #
