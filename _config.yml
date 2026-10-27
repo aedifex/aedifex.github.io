@@ -269,8 +269,13 @@ kramdown:
 # Default YAML values (more information on Jekyll's site)
 collections:
   latin:
+    title: Latin
     output: true
     permalink: /latin/:name/
+  research:
+    title: Research
+    output: true
+    permalink: /research/:name/
 
 defaults:
   -
@@ -286,8 +291,15 @@ defaults:
       path: ""
       type: "latin"
     values:
-      layout: "latin-entry"
-      css: ["/assets/css/latin.css"]
+      layout: "section-entry"
+      css: ["/assets/css/sections.css"]
+  -
+    scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "section-entry"
+      css: ["/assets/css/sections.css"]
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default

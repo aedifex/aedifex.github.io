@@ -1,11 +1,11 @@
-/* Latin section: landing page and entries */
+/* Site sections (Latin, Research): landing pages and entries */
 
-.latin-source {
+.section-source {
   font-style: italic;
   color: #777;
 }
 
-.latin-back {
+.section-back {
   margin-top: 2rem;
 }
 
@@ -52,16 +52,16 @@
 
 /* Landing page */
 
-.latin-section {
+.section-group {
   margin-top: 2.5rem;
 }
 
-.latin-list {
+.section-list {
   list-style: none;
   padding: 0;
 }
 
-.latin-list li {
+.section-list li {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -69,11 +69,11 @@
   border-bottom: 1px solid #eee;
 }
 
-.latin-list .latin-year {
+.section-list .section-year {
   color: #999;
   white-space: nowrap;
 }
 
-.latin-feed {
+.section-feed {
   font-size: 0.9rem;
 }

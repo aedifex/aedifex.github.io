@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /research/feed.xml
+---
+{% include section-feed.xml collection="research" description="Research articles, papers and notes." %}

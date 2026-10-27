@@ -58,8 +58,10 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
   {% endif %}
 
-  {% if page.collection == "latin" or page.url == "/latin/" %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}: Latin" href="{{ '/latin/feed.xml' | absolute_url }}">
+  {% assign feed_section = page.section | default: page.collection %}
+  {% if feed_section and feed_section != "posts" %}
+  {% assign feed_meta = site.collections | where: "label", feed_section | first %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}: {{ feed_meta.title }}" href="{{ feed_section | prepend: '/' | append: '/feed.xml' | absolute_url }}">
   {% endif %}
 
   {% include gtag.html %}

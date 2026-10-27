@@ -2,27 +2,4 @@
 layout: null
 permalink: /latin/feed.xml
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>{{ site.title | xml_escape }}: Latin</title>
-    <description>Translations, essays and notes on Latin and the Roman world.</description>
-    <link>{{ '/latin/' | absolute_url }}</link>
-    <atom:link href="{{ '/latin/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% assign excerpt_length = site.excerpt_length | default: 50 %}
-    {% assign entries = site.latin | where_exp: "entry", "entry.type != 'reference'" | sort: "date" | reverse %}
-    {% for entry in entries limit:20 %}
-      <item>
-        <title>{{ entry.title | strip_html | xml_escape }}</title>
-        <dc:creator><![CDATA[ {{ entry.author | default: site.author | xml_escape }} ]]></dc:creator>
-        <description>
-          {% if entry.subtitle %}{{ entry.subtitle | strip_html | xml_escape }} - {% endif %}
-          {{ entry.content | strip_html | xml_escape | truncatewords: excerpt_length }}
-        </description>
-        <pubDate>{{ entry.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ entry.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ entry.url | absolute_url }}</guid>
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+{% include section-feed.xml collection="latin" description="Translations, essays and notes on Latin and the Roman world." %}

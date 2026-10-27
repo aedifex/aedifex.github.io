@@ -1,0 +1,29 @@
+---
+layout: base
+---
+
+{% include header.html type="post" %}
+
+<main class="container-md">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+
+      {% if page.source %}
+        <p class="section-source">Source: <cite>{{ page.source }}</cite></p>
+      {% endif %}
+
+      <div class="blog-post section-entry">
+        {{ content }}
+      </div>
+
+      {% if page.social-share %}
+        {% include social-share.html %}
+      {% endif %}
+
+      {% assign section = site.collections | where: "label", page.collection | first %}
+      <p class="section-back">
+        <a href="{{ section.label | prepend: '/' | append: '/' | relative_url }}"><i class="fas fa-arrow-left"></i> Back to {{ section.title }}</a>
+      </p>
+    </div>
+  </div>
+</main>
