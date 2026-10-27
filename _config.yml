@@ -21,9 +21,9 @@ author: Aedifex
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://christopherblack.net/"
   Resume: "https://christopherblack-resume.s3.us-west-2.amazonaws.com/index.html"
   Research: "research"
@@ -56,7 +56,7 @@ round-avatar: true
 social-network-links:
   email: "ccblack@uci.edu"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
+  # facebook: deanattali
   github: aedifex
   # <TODO: good reads>
 #  twitter: daattali
@@ -257,7 +257,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Los_Angeles"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
