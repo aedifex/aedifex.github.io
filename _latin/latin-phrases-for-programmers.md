@@ -1,7 +1,7 @@
 ---
-layout: post
+type: essay
+date: 2020-12-25
 title: Latin Phrases For Computer Programmers
-cover-img: /assets/img/latin-phrases.jpg
 author: "Christopher Black"
 tags: [programming, inspiration, infrastructure, devops]
 ---

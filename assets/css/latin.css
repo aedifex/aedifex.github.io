@@ -1,0 +1,79 @@
+/* Latin section: landing page and entries */
+
+.latin-source {
+  font-style: italic;
+  color: #777;
+}
+
+.latin-back {
+  margin-top: 2rem;
+}
+
+/* Side-by-side translations */
+
+.translation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  margin: 2rem 0;
+}
+
+/* Keep the line breaks as written, so verse reads as verse */
+.translation > p {
+  white-space: pre-line;
+}
+
+.translation > .la {
+  grid-column: 1;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+.translation > .en {
+  grid-column: 2;
+}
+
+@media (max-width: 767px) {
+  .translation {
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+  }
+
+  .translation > .la,
+  .translation > .en {
+    grid-column: 1;
+  }
+
+  .translation > .en {
+    color: #666;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Landing page */
+
+.latin-section {
+  margin-top: 2.5rem;
+}
+
+.latin-list {
+  list-style: none;
+  padding: 0;
+}
+
+.latin-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.latin-list .latin-year {
+  color: #999;
+  white-space: nowrap;
+}
+
+.latin-feed {
+  font-size: 0.9rem;
+}

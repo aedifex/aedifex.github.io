@@ -267,6 +267,11 @@ kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
+collections:
+  latin:
+    output: true
+    permalink: /latin/:name/
+
 defaults:
   -
     scope:
@@ -276,6 +281,13 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: ""
+      type: "latin"
+    values:
+      layout: "latin-entry"
+      css: ["/assets/css/latin.css"]
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
