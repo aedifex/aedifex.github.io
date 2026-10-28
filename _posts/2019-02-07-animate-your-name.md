@@ -1,9 +1,27 @@
 ---
 layout:     post
-date:       2019-03-03
+date:       2019-02-07
 author:     "Christopher Black"
-bubbles: true
+js:
+  - "/assets/js/animate-your-name/alphabet.js"
+  - "/assets/js/animate-your-name/bubbles.js"
 ---
+
+<canvas id="myCanvas"></canvas>
+<script>
+  // The bubbles scripts load at the end of the page, so wait for them
+  document.addEventListener("DOMContentLoaded", function () {
+    var red = [0, 100, 63];
+    var orange = [40, 100, 60];
+    var green = [75, 100, 40];
+    var blue = [196, 77, 55];
+    var purple = [280, 50, 60];
+
+    drawName("You are beautiful", [red, orange, green, blue, purple]);
+    bubbleShape = "circle";
+    bounceBubbles();
+  });
+</script>
 
 This was a special project for me. I was getting back into programming and found the lesson "Animate Your Name" on Codecademy a few years back. It was a pretty gentle introduction to JavaScript but the end result was really spectacular, as you can see above.
 
