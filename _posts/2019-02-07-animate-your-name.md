@@ -1,5 +1,6 @@
 ---
 layout:     post
+title:      "Animate Your Name"
 date:       2019-02-07
 author:     "Christopher Black"
 js:
@@ -25,9 +26,9 @@ js:
 
 This was a special project for me. I was getting back into programming and found the lesson "Animate Your Name" on Codecademy a few years back. It was a pretty gentle introduction to JavaScript but the end result was really spectacular, as you can see above.
 
-I wanted to incorporate something similar here on my nascent blog. When I visited Codecademy to try to recreate the effect I couldn't find the lesson; looks like they've removed it from their site. A few google searches later I realized how popular the lesson was; other people were looking for information on how to recreate the effect as well.
+I wanted to incorporate something similar here on my nascent blog. When I visited Codecademy to try to recreate the effect I couldn't find the lesson; looks like they've removed it from their site. A few Google searches later I realized how popular the lesson was; other people were looking for information on how to recreate the effect as well.
 
-<http://stackoverflow.com/questions/25172693/javascript-how-to-recreate-animate-your-name-lesson-from-codecademy>
+<https://stackoverflow.com/questions/25172693/javascript-how-to-recreate-animate-your-name-lesson-from-codecademy>
  
 Eventually I was able to replicate the effect after a bit of trial and error. The HTML/JavaScript is very simple ~ it was really a matter of finding the correct external assets, i.e. (bubbles.js && alphabet.js).
 
@@ -48,4 +49,4 @@ bubbleShape = 'circle';
 bounceBubbles();
 ```
 
-Once I found the assets I did something crazy like copy the files locally, created a small repository and put it on [Github](https://github.com/aedifex/Animate-Your-Name) for posterity. The repo includes everything needed to recreate the effect. Enjoy!
+Once I found the assets I did something crazy like copy the files locally, create a small repository and put it on [GitHub](https://github.com/aedifex/Animate-Your-Name) for posterity. The repo includes everything needed to recreate the effect. Enjoy!

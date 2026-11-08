@@ -14,7 +14,7 @@ A very old Latin saying meaning "my fault" or simply "my b". Think `git blame`. 
 
 ### II. Carpe diem
 
-Seize the day. Technically the verb "carpere" means to pluck, therefore a more literal translation would be to "pluck" the day, but the meaning is one and the same. Time is our most precious resource. Working hard is great, but working smart is better. You're diligently on a project, you have deadlines, you're trying to ship a deliverable; take a few deep breathes, make some coffee, and carpe diem.
+Seize the day. Technically the verb "carpere" means to pluck, therefore a more literal translation would be to "pluck" the day, but the meaning is one and the same. Time is our most precious resource. Working hard is great, but working smart is better. You're diligently on a project, you have deadlines, you're trying to ship a deliverable; take a few deep breaths, make some coffee, and carpe diem.
 
 ### III. Carpe noctem
 
@@ -22,7 +22,7 @@ The inverse of seize the day – “seize (or pluck) the night”. This is espec
 
 ### IV. Pro bono
 
-“Done without charge” i.e., open source. I'm a huge proponent of the open-source movement. OSS has undeniably changed the way software is produced, consumed, and how technologists all over the world think about solving problems. Everyone is a potential contributor.
+“For the good” (short for <em>pro bono publico</em>, “for the public good”), i.e., work done without charge: open source. I'm a huge proponent of the open-source movement. OSS has undeniably changed the way software is produced, consumed, and how technologists all over the world think about solving problems. Everyone is a potential contributor.
 
 Sometimes too we need to simply pay it forward. Perhaps another team is struggling getting a microservice deployed because they might not have the necessary operational knowledge. Or maybe someone building some internal tooling could benefit greatly from some design expertise. Regardless, pay it forward and share your skills with the world.
 
@@ -32,7 +32,7 @@ Building software is a highly collaborative activity. Vox populi equates to “v
 
 ### VI. Ex nihilo nihil fit
 
-“Nothing comes from nothing” - from Lucretius, author of a brilliant metaphysical treatise titled De Rerum Natura. Beautiful software that delights its users and all of the incredible technology that has changed the world, is the product of countless individual’s hard work and dedication. Innovation doesn’t occur in a vacuum. Tools don’t build themselves.
+“Nothing comes from nothing” - from Lucretius, author of a brilliant metaphysical treatise titled De Rerum Natura. Beautiful software that delights its users and all of the incredible technology that has changed the world, is the product of countless individuals’ hard work and dedication. Innovation doesn’t occur in a vacuum. Tools don’t build themselves.
 
 ### VII. Sapere aude
 
@@ -40,11 +40,11 @@ We live in an age of ubiquitous information and knowledge sharing. From public l
 
 ### VIII. Caesar non supra grammaticos
 
-“(Even) the emperor is not above the grammar”. We're all bound by the rigid rules of syntax, lexigraphy, and off by one errors. Learning syntax is just the beginning of our journey as programmers; understanding how to express ourselves with code and solve challenging problems whilst conforming to the rigid rules of syntax takes time to master. Even the most skilled developers can get tripped up over a simple mistake, a missing period here, and unterminated connection thread there, the point is to take the utmost care in your craft. Even the best of us can make novel mistakes. Humble yourselves before the task at hand.
+“(Even) the emperor is not above the grammarians”. We're all bound by the rigid rules of syntax, lexicography, and off by one errors. Learning syntax is just the beginning of our journey as programmers; understanding how to express ourselves with code and solve challenging problems whilst conforming to the rigid rules of syntax takes time to master. Even the most skilled developers can get tripped up over a simple mistake, a missing period here, an unterminated connection thread there, the point is to take the utmost care in your craft. Even the best of us can make novel mistakes. Humble yourselves before the task at hand.
 
-### XI. Acta non verba
+### IX. Acta non verba
 
-"Actions, not words" is a powerful expression. I'm not going to say talk is cheap, but code speaks for itself. Regardless of your intention, your meaning, or what kind of record collection you possess (or how you take your coffee), the code and thereby the work speaks for itself. It’s one of the most important considerations as a technology professional and a strong delineating factor between science and other activities. As scientist, we pursue truth in whatever form that takes. We pursue quality in our craft above all else. It’s easy to talk about delivering value or building the “next great thing”. Much harder to deliver on those promises.
+"Actions, not words" is a powerful expression. I'm not going to say talk is cheap, but code speaks for itself. Regardless of your intention, your meaning, or what kind of record collection you possess (or how you take your coffee), the code and thereby the work speaks for itself. It’s one of the most important considerations as a technology professional and a strong delineating factor between science and other activities. As scientists, we pursue truth in whatever form that takes. We pursue quality in our craft above all else. It’s easy to talk about delivering value or building the “next great thing”. Much harder to deliver on those promises.
 
 ### X. Post mortem
 

@@ -7,8 +7,6 @@ source: Catullus, Carmina 5
 date: 2026-10-27
 ---
 
-*Sample entry showing the translation layout. Replace or delete it.*
-
 <div class="translation" markdown="1">
 
 Vivamus, mea Lesbia, atque amemus,
@@ -53,6 +51,6 @@ when he knows how many kisses there have been.
 
 ## Notes
 
-Commentary goes here, below the text. Footnotes work too.[^1]
+The poem prices all the old men’s gossip, taken together, at a single coin.[^1]
 
 [^1]: *Assis* is the genitive of *as*, the smallest copper coin: the gossip is worth a penny, all of it together.
