@@ -1,0 +1,17 @@
+/* Calculator Javascriptus widget.
+ * Scoped to .box so it doesn't restyle the site's own inputs (e.g. search). */
+.box {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px 20px 20px;
+}
+
+.box input {
+  font-size: 24px;
+  height: 40px;
+  width: 40%;
+}
+
+.box .result {
+  display: flex;
+}

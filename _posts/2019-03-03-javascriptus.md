@@ -4,6 +4,10 @@ title:      "Calculator Javascriptus Numeralis Romanis"
 date:       2019-03-03
 author:     "Christopher Black"
 cover-img: /assets/img/javascriptus.jpg
+js:
+  - "/assets/js/javascriptus/javascriptus.js"
+css:
+  - "/assets/css/javascriptus.css"
 ---
 
 <p>The average computer today has more computing power than all the computers used in the entire Apollo program combined. In an age of big data, smart phones, and cloud computing (Webscale is also a thing if you have not heard), it seems we've come a long way in the past few decades.</p> 
@@ -50,54 +54,3 @@ All evidence suggests Hindu-Arabic numerals, including the concept of zero (base
 <blockquote>Fun fact: historically, there has been incredible inconsistancy between the use of the additive (i.e. IIIII XXXXX CCCCC) version the subtractive (i.e. IX IV) forms.</blockquote>
 
 Words like Algebra (Arabic for the unification of pieces) and algorithm (a Latinized version of the name al-Khwārizmī, a great Persian mathematician) come from this period. The replacement of Roman Numerals by Hindo-Arabic numerals ignited revolution in mathematics, which lead to a revolution in science, the product of which nothing short of the modern world. And Webscale. 
-
-<!-- JS here for now -->
-<script>
-function sayAve() {
-  var text = document.getElementById('input').value;
-  var numerus = romanize(text);
-  document.getElementById("output").innerHTML = numerus;
-}
-
-
-function romanize(num) { 
-
-var decimalValue = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ];
-var romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ];
-
-var romanized = '';
-
-  for (var index = 0; index < decimalValue.length; index++) {
-    while (decimalValue[index] <= num) {
-      romanized += romanNumeral[index];
-      num -= decimalValue[index];
-    }
-  }
-
-  return romanized;
-}
-
-</script>
-
-<style type="text/css">
-.main {
-  padding: 200px;
-  /*background-color: gray;*/
-}
-.box {
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 5px 20px 20px;
-}
-
-input {
-  font-size: 24px;
-  height: 40px;
-  width: 40%;
-}
-
-.result {
-  display: flex;
-}
-
-</style>
