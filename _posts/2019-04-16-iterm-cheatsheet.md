@@ -4,6 +4,7 @@ title: iTerm2 basics
 subtitle: Commands && Shortcuts for wellness and zen
 author:     "Christopher Black"
 tags: [terminal, macos, productivity]
+cover-img: /assets/img/iterm-cover.jpg
 thumbnail-img: /assets/img/iterm-thumb.jpg
 share-img: /assets/img/iterm-thumb.jpg
 ---
