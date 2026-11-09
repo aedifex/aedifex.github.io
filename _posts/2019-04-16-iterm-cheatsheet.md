@@ -4,6 +4,8 @@ title: iTerm2 basics
 subtitle: Commands && Shortcuts for wellness and zen
 author:     "Christopher Black"
 tags: [terminal, macos, productivity]
+thumbnail-img: /assets/img/iterm-thumb.jpg
+share-img: /assets/img/iterm-thumb.jpg
 ---
 
 [iTerm2](https://iterm2.com/) is an amazing Terminal replacement (err, technically, a terminal emulator) for Mac users. If you spend any time at all in the terminal, free from the prescriptive constraints of the GUI, iTerm2 is worth checking out. All of us begin our terminal journey learning the basics: the commands for moving around the filesystem, basic file manipulation, and probably a few administrative commands (e.g. `chmod +r file`). Learning _how to operate the terminal_ itself quickly and efficiently is the next stage in your journey. Imagine the power one wields when being able to split terminal panes or delete entire sentences with a single keystroke...
