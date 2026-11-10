@@ -80,7 +80,7 @@ Then simply pass this data in as `user_data` like this:
 
 <figure style="margin:2em 0">
   <img src="/assets/img/terraform-diagram.png" style="width:100%" alt="terraform apply packs index.html and a start-up script into cloud-init user_data; on first boot cloud-init writes the file and starts busybox httpd on port 8080">
-  <figcaption style="font-size:0.9em;color:#777;text-align:center;margin-top:0.6em">The whole flow in one picture. Left: your machine, when you run <code>terraform apply</code>. Right: the instance, once, on first boot. The only thing that crosses the line is <code>user_data</code>: no SSH session, no S3 bucket, no custom AMI.</figcaption>
+  <figcaption style="font-size:0.8em;font-style:italic;color:#777;text-align:left;margin-top:0.5em;padding-left:0.8em;border-left:3px solid #ddd">The whole flow in one picture. Left: your machine, when you run <code>terraform apply</code>. Right: the instance, once, on first boot. The only thing that crosses the line is <code>user_data</code>: no SSH session, no S3 bucket, no custom AMI.</figcaption>
 </figure>
 
 Perfect! This is exactly what we were looking for. A very elegant solution to a simple problem.
