@@ -78,6 +78,8 @@ Then simply pass this data in as `user_data` like this:
 
 `user_data = data.cloudinit_config.example.rendered`
 
+![terraform apply packs index.html and a start-up script into cloud-init user_data; on first boot cloud-init writes the file and starts busybox httpd on port 8080](/assets/img/terraform-diagram.png)
+
 Perfect! This is exactly what we were looking for. A very elegant solution to a simple problem.
 
 I'd like to give credit to <a href="https://stackoverflow.com/users/281848/martin-atkins">Martin Atkins</a> for a very concise explanation to a similar issue someone on the interwebz was facing.
