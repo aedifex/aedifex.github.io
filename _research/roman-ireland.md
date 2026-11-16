@@ -5,14 +5,9 @@ subtitle: "Did Rome ever cross the Irish Sea?"
 date: 2026-11-16
 author: "Christopher Black"
 tags: [history, rome, ireland]
-published: false   # draft: hidden from the site until this line is removed
 ---
 
-<!--
-  DRAFT. Not published. Preview locally with:
-    bundle exec jekyll serve --unpublished
-  Then open /research/roman-ireland/
--->
+*Work in progress: an open research notebook I'm filling in as I go.*
 
 ## The question
 
