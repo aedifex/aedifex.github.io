@@ -4,7 +4,7 @@ title: About Me
 subtitle: Solutions engineering · AI · Software delivery · Security · Infrastructure
 ---
 
-<p>Ave, munde, and thanks for stopping by. I’m Christopher Black, a senior solutions engineer working at the intersection of AI, security, software engineering, and sales. I help enterprise organizations modernize how they build, ship, and run software, reduce risk, and adopt platforms that materially improve how their engineering teams work.</p>
+<p>Ave, munde, and thanks for stopping by. I’m Christopher Black, a senior solutions engineer working at the intersection of AI, security, software engineering, and sales. I help enterprise organizations modernize how they build, ship, and run software, reduce risk, and adopt platforms that materially improve the way their engineering teams work.</p>
 
 <p>I currently work as a Senior Solutions Engineer at Traversal, where we build AI that helps engineering teams find the root cause of production incidents. I partner with engineering and executive stakeholders to bring that into complex, real-world environments, aligning technical architecture with business outcomes and helping teams resolve incidents faster with greater confidence.</p>
 
