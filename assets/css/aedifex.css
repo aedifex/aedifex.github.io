@@ -1,0 +1,9 @@
+/* Aedifex site styles. Loaded on every page via site-css in _config.yml. */
+
+/* Balance multi-line headings and subtitles so no word is left alone on the last line */
+.intro-header .page-heading h1,
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading h1,
+.intro-header .post-heading .post-subheading {
+  text-wrap: balance;
+}

@@ -24,7 +24,6 @@ navbar-links:
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://christopherblack.net/"
   Resume: "https://christopherblack-resume.s3.us-west-2.amazonaws.com/index.html"
   Research: "research"
   Latin: "latin"
@@ -156,6 +155,8 @@ footer-hover-col: "#0085A1"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+site-css:
+  - "/assets/css/aedifex.css"
 #site-css:
 #  - "/assets/css/custom-styles.css"
 
