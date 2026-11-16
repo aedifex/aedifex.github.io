@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: Aedifex Blog
+title: Aedifex
 
 # Your name to show in the footer
-author: Aedifex
+author: Christopher Black
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -86,7 +86,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: "Field notes from a student of systems: technical, historical, human."
 
 ###########################
 # --- General options --- #
