@@ -1,19 +1,13 @@
 ---
-type: essay
+type: paper
 title: "Latin origins of modern slang & street culture"
 subtitle: "From the walls of Pompeii to the group chat"
 date: 2026-11-16
 author: "Christopher Black"
 tags: [latin, language, slang, culture]
-published: false   # proto draft: hidden until this line is removed
 ---
 
-<!--
-  PROTO DRAFT. Not published. Preview locally with:
-    bundle exec jekyll serve --unpublished
-  Then open /latin/latin-origins-of-slang/
-  Every etymology below is a lead to verify against a dictionary (OED, Etymonline) before publishing.
--->
+*Work in progress: an open research notebook I'm filling in as I go. Every etymology here gets checked against the OED and Etymonline before it's final.*
 
 ## The hook
 
