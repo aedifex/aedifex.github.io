@@ -4,6 +4,7 @@ title: "Joining Traversal"
 subtitle: "From shipping software to fixing it when it breaks"
 author: "Christopher Black"
 cover-img: /assets/img/traversal-cover.jpg
+thumbnail-img: /assets/img/traversal-thumb.jpg
 share-img: /assets/img/traversal-cover.jpg
 tags: [career, ai, sre, observability, solutions-engineering]
 ---
