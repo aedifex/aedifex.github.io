@@ -1,5 +1,5 @@
 ---
-type: article
+type: paper
 title: "Roman Ireland"
 subtitle: "Did Rome ever cross the Irish Sea?"
 date: 2026-11-16
