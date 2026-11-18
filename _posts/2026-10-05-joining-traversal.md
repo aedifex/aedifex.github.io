@@ -13,6 +13,8 @@ After years of helping teams build, test, secure, and deploy software, I'm movin
 
 Come, let me tell you a tale.
 
+## The road here
+
 Harness had been an incredible run. Starting my career in CI at CircleCI (my alma mater) and building a deep understanding of DevOps and operations as an SRE was transformative. I spent considerable time, professionally and academically, understanding the journey from code to artifact. Harness was the logical next place to take that skill set: to help make customers successful, and to complete my SDLC journey with a strong, platform-oriented story from artifact to production. I worked with great companies and great people, solved complex problems, secured software delivery, and helped accelerate innovation for leading technology companies.
 
 When I discovered Traversal, I was impressed with the technology; the platform was truly innovative. A friend and former colleague had already taken the plunge as an early SE. I had several interview threads running in parallel, but after meeting more of the Traversal team, including one of the founders, it was evident: I wanted to work for Traversal, be part of something unique, be an effective solutions engineer, and transform incident response for innovative companies. It was the combination of the technology and the people, both exceptional. I'm honored and grateful to be part of the team.
