@@ -9,6 +9,8 @@ share-img: /assets/img/traversal-cover.jpg
 tags: [career, ai, sre, observability, solutions-engineering]
 ---
 
+## The story so far
+
 After years of helping teams build, test, secure, and deploy software, I'm moving back to the other end of the lifecycle: production, the engine room. The questions there are simple to ask and hard to answer: what happens when things break, how do we fix them, and how do we stop them from breaking again?
 
 Come, let me tell you a tale.
