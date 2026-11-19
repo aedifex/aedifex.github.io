@@ -3,6 +3,9 @@ layout: post
 title: "IaCM in practice"
 subtitle: "Managing Terraform like an application, not a folder of scripts"
 author: "Christopher Black"
+cover-img: /assets/img/iacm-cover.jpg
+thumbnail-img: /assets/img/iacm-thumb.jpg
+share-img: /assets/img/iacm-cover.jpg
 tags: [iacm, terraform, infrastructure-as-code, harness, devops]
 ---
 
