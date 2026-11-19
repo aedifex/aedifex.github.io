@@ -3,6 +3,8 @@ layout: post
 title: "Continuous delivery for AWS Lambda"
 subtitle: "Provision with IaCM, deploy with a pipeline"
 author: "Christopher Black"
+cover-img: /assets/img/lambda-cover.jpg
+share-img: /assets/img/lambda-cover.jpg
 thumbnail-img: /assets/img/lambda-thumb.jpg
 tags: [aws, lambda, serverless, continuous-delivery, harness, iacm]
 ---
