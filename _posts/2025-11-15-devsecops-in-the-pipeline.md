@@ -3,6 +3,8 @@ layout: post
 title: "DevSecOps in the pipeline"
 subtitle: "Security and velocity are not opposing forces"
 author: "Christopher Black"
+thumbnail-img: /assets/img/devsecops-thumb.jpg
+share-img: /assets/img/devsecops-diagram.png
 tags: [devsecops, security, ci-cd, harness]
 ---
 
